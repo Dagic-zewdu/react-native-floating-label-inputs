@@ -1,1 +1,1 @@
-# React-native-floating-input
+# React-native-floating-inputs
