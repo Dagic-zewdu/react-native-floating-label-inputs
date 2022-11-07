@@ -1,11 +1,15 @@
-import {View, Text} from 'react-native';
+import {View, TouchableWithoutFeedback, Keyboard} from 'react-native';
 import React from 'react';
 import FloatingTextInput from './floatingTextInput';
 
 const App = () => {
   return (
-    <View>
-      <FloatingTextInput label="My test" />
+    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+      <TouchableWithoutFeedback
+        style={{flex: 1}}
+        onPress={() => Keyboard.dismiss()}>
+        <FloatingTextInput label="My test" onChangeText={e => console.log(e)} />
+      </TouchableWithoutFeedback>
     </View>
   );
 };

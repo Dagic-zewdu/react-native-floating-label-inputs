@@ -2,13 +2,16 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
+    paddingHorizontal: 10,
+    width: '100%',
+    alignSelf: 'center',
+  },
+  inputContainer: {
     backgroundColor: '#fff',
     paddingHorizontal: 10,
     borderWidth: 1,
     borderColor: '#bdbdbd',
     borderRadius: 2,
-    width: '90%',
-    alignSelf: 'center',
   },
   icon: {
     width: 40,
@@ -32,10 +35,10 @@ const styles = StyleSheet.create({
     zIndex: 3,
   },
   error: {
-    width: '90%',
+    width: '100%',
     color: 'red',
     alignSelf: 'center',
-    marginTop: -12,
+    paddingHorizontal: 10,
   },
 });
 

@@ -76,10 +76,10 @@ const FloatingTextInput = ({
   };
 
   return (
-    <View>
+    <View style={styles.container}>
       <View
         style={{
-          ...styles.container,
+          ...styles.inputContainer,
           ...containerStyle,
           borderColor: error ? 'red' : '#bdbdbd',
         }}>
