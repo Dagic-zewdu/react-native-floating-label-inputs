@@ -19,6 +19,7 @@ interface Props extends TextInputProps {
   containerStyle?: ViewStyle;
   labelColor?: string;
   labelStyle?: TextStyle;
+  inputStyle?: ViewStyle;
 }
 
 const FloatingTextInput = ({
@@ -27,6 +28,7 @@ const FloatingTextInput = ({
   containerStyle,
   labelColor = '#111',
   labelStyle = {},
+  inputStyle = {},
   ...props
 }: Props) => {
   const [val, setValue] = useState(props.value ? props.value : '');
@@ -97,7 +99,7 @@ const FloatingTextInput = ({
           </Text>
         </Animated.View>
         <TextInput
-          style={styles.input}
+          style={{...styles.input, ...inputStyle}}
           value={val}
           onFocus={onFocusHandler}
           onBlur={onBlurHandler}
