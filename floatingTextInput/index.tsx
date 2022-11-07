@@ -6,6 +6,7 @@ import {
   Animated,
   TextInputProps,
   ViewStyle,
+  TextStyle,
 } from 'react-native';
 import styles from './style';
 
@@ -17,6 +18,7 @@ interface Props extends TextInputProps {
   onBlur?: () => void;
   containerStyle?: ViewStyle;
   labelColor?: string;
+  labelStyle?: TextStyle;
 }
 
 const FloatingTextInput = ({
@@ -24,6 +26,7 @@ const FloatingTextInput = ({
   error = '',
   containerStyle,
   labelColor = '#111',
+  labelStyle = {},
   ...props
 }: Props) => {
   const [val, setValue] = useState(props.value ? props.value : '');
@@ -84,7 +87,12 @@ const FloatingTextInput = ({
           borderColor: error ? 'red' : '#bdbdbd',
         }}>
         <Animated.View style={[styles.animatedStyle, animStyle]}>
-          <Text style={{...styles.label, color: error ? 'red' : labelColor}}>
+          <Text
+            style={{
+              ...styles.label,
+              ...labelStyle,
+              color: error ? 'red' : labelColor,
+            }}>
             {label}
           </Text>
         </Animated.View>
