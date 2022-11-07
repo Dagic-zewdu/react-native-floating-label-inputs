@@ -1,6 +1,6 @@
 import {View, TouchableWithoutFeedback, Keyboard} from 'react-native';
 import React from 'react';
-import FloatingTextInput from './floatingTextInput';
+import FloatingTextInput from './src/floatingTextInput';
 
 const App = () => {
   return (
