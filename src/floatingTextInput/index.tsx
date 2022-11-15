@@ -94,8 +94,8 @@ const FloatingTextInput = ({
           <Text
             style={{
               ...styles.label,
-              ...styles.animatedStyle, left: icon ? 30 : 15,
               ...labelStyle,
+              left: icon ? 30 : 15,
               color: error ? 'red' : labelColor,
             }}>
             {label}
