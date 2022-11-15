@@ -12,6 +12,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#bdbdbd',
     borderRadius: 2,
+    paddingLeft: 35,
   },
   icon: {
     width: 40,
