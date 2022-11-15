@@ -3,6 +3,7 @@ import React from 'react';
 import FloatingTextInput from './src/floatingTextInput';
 // @ts-ignore
 import Icon from 'react-native-vector-icons/EvilIcons';
+
 const App = () => {
   return (
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
