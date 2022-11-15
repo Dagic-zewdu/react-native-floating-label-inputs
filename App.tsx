@@ -8,7 +8,11 @@ const App = () => {
       <TouchableWithoutFeedback
         style={{flex: 1}}
         onPress={() => Keyboard.dismiss()}>
-        <FloatingTextInput label="My test" onChangeText={e => console.log(e)} />
+        <FloatingTextInput
+          label="Test sinte"
+          error="Invalid klhfdg"
+          onChangeText={text => console.log(text)}
+        />
       </TouchableWithoutFeedback>
     </View>
   );
