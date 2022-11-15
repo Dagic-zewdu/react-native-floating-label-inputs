@@ -1,6 +1,7 @@
 import {View, TouchableWithoutFeedback, Keyboard} from 'react-native';
 import React from 'react';
 import FloatingTextInput from './src/floatingTextInput';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 const App = () => {
   return (
