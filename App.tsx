@@ -12,7 +12,7 @@ const App = () => {
         onPress={() => Keyboard.dismiss()}>
         <FloatingTextInput
           label="Test sinte"
-          error="Invalid klhfdg"
+          error="Invalid Input"
           icon={<Icon name="rocket" size={30} color="#900" />}
           onChangeText={text => console.log(text)}
         />

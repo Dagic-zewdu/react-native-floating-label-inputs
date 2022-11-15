@@ -40,6 +40,11 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     paddingHorizontal: 10,
   },
+  iconContainer: {
+    position: "absolute",
+    top: 11,
+    left: 5
+}
 });
 
 export default styles;

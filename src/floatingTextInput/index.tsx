@@ -30,6 +30,7 @@ const FloatingTextInput = ({
   labelColor = '#111',
   labelStyle = {},
   inputStyle = {},
+  icon,
   ...props
 }: Props) => {
   const [val, setValue] = useState(props.value ? props.value : '');
@@ -93,12 +94,20 @@ const FloatingTextInput = ({
           <Text
             style={{
               ...styles.label,
+              ...styles.animatedStyle, left: icon ? 30 : 15,
               ...labelStyle,
               color: error ? 'red' : labelColor,
             }}>
             {label}
           </Text>
         </Animated.View>
+        {
+                    icon ?
+                        <View style={styles.iconContainer}>
+                            {icon}
+                        </View> :
+                        <React.Fragment></React.Fragment>
+                }
         <TextInput
           style={{...styles.input, ...inputStyle}}
           value={val}
