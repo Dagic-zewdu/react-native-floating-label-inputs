@@ -13,13 +13,14 @@ import styles from './style';
 interface Props extends TextInputProps {
   label: string | number;
   error?: string;
-  onChangeText?: (text: string) => void;
+  onChangeText?: (text: string) => void; // onChange
   onFocus?: () => void;
   onBlur?: () => void;
   containerStyle?: ViewStyle;
   labelColor?: string;
   labelStyle?: TextStyle;
   inputStyle?: ViewStyle;
+  icon?: JSX.Element;
 }
 
 const FloatingTextInput = ({
