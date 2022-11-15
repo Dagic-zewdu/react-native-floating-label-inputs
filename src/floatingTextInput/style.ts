@@ -12,6 +12,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: '#bdbdbd',
     borderRadius: 2,
+    paddingLeft: 35,
   },
   icon: {
     width: 40,
@@ -22,13 +23,15 @@ const styles = StyleSheet.create({
     fontSize: 13,
     height: 45,
     color: '#000',
+    justifyContent: 'center',
+    marginTop: 2,
   },
   label: {
     fontSize: 13,
     backgroundColor: '#fff',
   },
   animatedStyle: {
-    top: 11,
+    top: 13,
     left: 15,
     position: 'absolute',
     borderRadius: 90,
@@ -39,6 +42,11 @@ const styles = StyleSheet.create({
     color: 'red',
     alignSelf: 'center',
     paddingHorizontal: 10,
+  },
+  iconContainer: {
+    position: 'absolute',
+    top: 11,
+    left: 5,
   },
 });
 

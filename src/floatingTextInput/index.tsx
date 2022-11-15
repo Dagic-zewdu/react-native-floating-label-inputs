@@ -30,6 +30,7 @@ const FloatingTextInput = ({
   labelColor = '#111',
   labelStyle = {},
   inputStyle = {},
+  icon,
   ...props
 }: Props) => {
   const [val, setValue] = useState(props.value ? props.value : '');
@@ -70,7 +71,7 @@ const FloatingTextInput = ({
 
   const yVal = moveText.interpolate({
     inputRange: [0, 1],
-    outputRange: [4, -18],
+    outputRange: [4, -20],
   });
 
   const animStyle = {
@@ -94,11 +95,17 @@ const FloatingTextInput = ({
             style={{
               ...styles.label,
               ...labelStyle,
+              left: icon ? 20 : 15,
               color: error ? 'red' : labelColor,
             }}>
             {label}
           </Text>
         </Animated.View>
+        {icon ? (
+          <View style={styles.iconContainer}>{icon}</View>
+        ) : (
+          <React.Fragment></React.Fragment>
+        )}
         <TextInput
           style={{...styles.input, ...inputStyle}}
           value={val}

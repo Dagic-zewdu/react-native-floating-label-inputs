@@ -1,6 +1,8 @@
 import {View, TouchableWithoutFeedback, Keyboard} from 'react-native';
 import React from 'react';
 import FloatingTextInput from './src/floatingTextInput';
+// @ts-ignore
+import Icon from 'react-native-vector-icons/EvilIcons';
 
 const App = () => {
   return (
@@ -10,7 +12,7 @@ const App = () => {
         onPress={() => Keyboard.dismiss()}>
         <FloatingTextInput
           label="Test sinte"
-          error="Invalid klhfdg"
+          icon={<Icon name="clock" size={28} color="#900" />}
           onChangeText={text => console.log(text)}
         />
       </TouchableWithoutFeedback>
