@@ -42,10 +42,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
   },
   iconContainer: {
-    position: "absolute",
+    position: 'absolute',
     top: 11,
     left: 5,
-}
+  },
 });
 
 export default styles;

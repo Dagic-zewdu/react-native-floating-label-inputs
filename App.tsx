@@ -13,7 +13,7 @@ const App = () => {
         <FloatingTextInput
           label="Test sinte"
           error="Invalid Input"
-          icon={<Icon name="clock"  size={30} color="#900"  />}
+          icon={<Icon name="clock" size={30} color="#900" />}
           onChangeText={text => console.log(text)}
         />
       </TouchableWithoutFeedback>
