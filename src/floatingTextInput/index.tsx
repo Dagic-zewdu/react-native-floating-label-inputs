@@ -71,7 +71,7 @@ const FloatingTextInput = ({
 
   const yVal = moveText.interpolate({
     inputRange: [0, 1],
-    outputRange: [4, -18],
+    outputRange: [4, -20],
   });
 
   const animStyle = {
@@ -94,9 +94,8 @@ const FloatingTextInput = ({
           <Text
             style={{
               ...styles.label,
-              ...styles.animatedStyle,
-              left: icon ? 30 : 15,
               ...labelStyle,
+              left: icon ? 20 : 15,
               color: error ? 'red' : labelColor,
             }}>
             {label}

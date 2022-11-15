@@ -23,13 +23,15 @@ const styles = StyleSheet.create({
     fontSize: 13,
     height: 45,
     color: '#000',
+    justifyContent: 'center',
+    marginTop: 2,
   },
   label: {
     fontSize: 13,
     backgroundColor: '#fff',
   },
   animatedStyle: {
-    top: 11,
+    top: 13,
     left: 15,
     position: 'absolute',
     borderRadius: 90,
