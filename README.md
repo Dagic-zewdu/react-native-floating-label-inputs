@@ -38,7 +38,7 @@ or using yarn
 
 
 
-<img src="https://raw.githubusercontent.com/Dagic-zewdu/react-native-floating-label-inputs/feature/examples/LowerFloatUpRange/photo.jpeg"/>
+<img src="https://raw.githubusercontent.com/Dagic-zewdu/react-native-floating-label-inputs/feature/examples/LowerFloatUpRange/photo.jpeg" width="65%" />
 
 ``` js
 import {View, Text} from 'react-native';
@@ -62,7 +62,7 @@ export default function LoweFloatUpRange() {
 
 Set an icon both to the right side (The first icon, which is displayed on the right side of the input field) and left side (The second icon, which is displayed on the left side of the input field)
 
-<img src="https://raw.githubusercontent.com/Dagic-zewdu/react-native-floating-label-inputs/feature/examples/WithIcon/photo.jpeg"/>
+<img src="https://raw.githubusercontent.com/Dagic-zewdu/react-native-floating-label-inputs/feature/examples/WithIcon/photo.jpeg" width="65%"/>
 
 ```js
 import React, {useState} from 'react';
@@ -111,7 +111,7 @@ export default WithIcon;
 
 A floating label for your `TextArea` field that can accept multiple lines of text. The label will float up a certain range (specified by the "floatUpRange" prop) as the user types. The "containerStyle" prop that sets the height of the container element, and an "inputStyle" prop that sets the height of the input field itself.
 
-<img src="https://raw.githubusercontent.com/Dagic-zewdu/react-native-floating-label-inputs/feature/examples/textArea/photo.gif" />
+<img src="https://raw.githubusercontent.com/Dagic-zewdu/react-native-floating-label-inputs/feature/examples/textArea/photo.gif" width="65%" />
 
  ```js
  import React from 'react';
@@ -131,7 +131,7 @@ export default function TextAreaExample() {
  ```
 - Bordr Bottom With an icon
 
-<img src="https://raw.githubusercontent.com/Dagic-zewdu/react-native-floating-label-inputs/feature/examples/borderBottomWithIcon/photo.jpeg"/>
+<img src="https://raw.githubusercontent.com/Dagic-zewdu/react-native-floating-label-inputs/feature/examples/borderBottomWithIcon/photo.jpeg" width="65%"/>
 
 ``` js
 import React, {useState} from 'react';
