@@ -20,14 +20,15 @@ or using yarn
 |         `labelProps`          |                  TextProps                    |                                                                                                                      undefined                                                                                                                      |                                                                                                                                    Set the label props as `TextProps`          
 |     `Icon`        | JSX.Element       | Undefined     | Add left side Icon component.
 |     `floatUpRange`        | JSX.Element       | Undefined     | Add left side Icon component.
-|     `rightIcon`        | JSX.Element       | Undefined     | Add left side Icon component.
-|     `inputStyle`        | ViewStyle       | Undefined     | Add left side Icon component.
-|     `labelStyle`        | TextStyle       | Undefined     | Add left side Icon component.
-|     `labelColor`        | String       | Undefined     | Add left side Icon component.
-|     `containerStyle`        | ViewStyle       | Undefined     | Add left side Icon component.
+|     `rightIcon`        | JSX.Element       | Undefined     | Add right side component, it can be an icon..
+|     `inputStyle`        | ViewStyle       | Undefined     | Set the input style.
+|     `labelStyle`        | TextStyle       | Undefined     | Set the label style for the floating label component.
+|     `labelColor`        | String       | Undefined     | Set the lable color.
+|     `containerStyle`        | ViewStyle       | Undefined     | Set styles to the input container component.
 |     `onBlur`        | JSX.Element       | Undefined     | Add left side Icon component.
-|     `onFocus`        | JSX.Element       | Undefined     | Add left side Icon component.
-|     `onChangeText`        | String       | Undefined     | Add left side Icon component.
+|     `onFocus`        | JSX.Element       | Undefined     | when the text input receives focus.
+|     `onChangeText`        | String       | Undefined     | whenever the text in the input changes. It is passed a single argument, which is the new text value of the input.
+|     `error`        | String       | Undefined     | Set your error message.
 
 
 
