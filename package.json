@@ -1,6 +1,18 @@
 {
-  "name": "floatingInputs",
+  "name": "react-native-float-label-input",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dagic-zewdu/react-native-floating-label-inputs"
+  },
+  "keywords": [
+    "React Native",
+    "react",
+    "label",
+    "floating",
+    "Floating label",
+    "customizable floating string"
+  ],
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",

@@ -25,13 +25,13 @@ export default function App() {
             justifyContent: 'center',
             backgroundColor: '#f5f0e1',
           }}>
-          {/* <CommonExample />
+          <CommonExample />
           <ColoredExample />
-          <BorderBottomOnly /> */}
-          {/* <LoweFloatUpRange /> */}
-          {/* <WithIcon /> */}
+          <BorderBottomOnly />
+          <LoweFloatUpRange />
+          <WithIcon />
           <BorderBottomWithIcon />
-          {/* <TextAreaExample />  */}
+          <TextAreaExample />
         </View>
       </TouchableWithoutFeedback>
     </SafeAreaView>
