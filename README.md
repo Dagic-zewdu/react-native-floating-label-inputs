@@ -1,7 +1,4 @@
-# React-native-floating-inputs
+# React Native Floating Label Input
 
-* This is react native floating inputs. This package is much flexible you can add your own style.
-
-Getting started
 
 `npm install react-native-floating-inputs`
