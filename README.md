@@ -17,7 +17,18 @@ or using yarn
 
 |             Prop              |     Type                     |                                                     Default                                                                                                                       |                                                                                                                                                 Description                                                                                                                                                  |
 | :---------------------------: | :------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|         `labelProps`          |                  TextProps                    |                                                                                                                      undefined                                                                                                                      |                                                                                                                                    Set the label props as    `TextProps`                                                                                                                      
+|         `labelProps`          |                  TextProps                    |                                                                                                                      undefined                                                                                                                      |                                                                                                                                    Set the label props as `TextProps`          
+|
+|     `Icon`        | JSX.Element       | Undefined     | Add left side Icon component.
+|     `floatUpRange`        | JSX.Element       | Undefined     | Add left side Icon component.
+|     `rightIcon`        | JSX.Element       | Undefined     | Add left side Icon component.
+|     `inputStyle`        | ViewStyle       | Undefined     | Add left side Icon component.
+|     `labelStyle`        | TextStyle       | Undefined     | Add left side Icon component.
+|     `labelColor`        | String       | Undefined     | Add left side Icon component.
+|     `containerStyle`        | ViewStyle       | Undefined     | Add left side Icon component.
+|     `onBlur`        | JSX.Element       | Undefined     | Add left side Icon component.
+|     `onFocus`        | JSX.Element       | Undefined     | Add left side Icon component.
+|     `onChangeText`        | String       | Undefined     | Add left side Icon component.
 
 
 
