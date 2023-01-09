@@ -32,7 +32,29 @@ or using yarn
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+# Usage
 
+- Lower Float Up Range
+
+<img src="https://raw.githubusercontent.com/Dagic-zewdu/react-native-floating-label-inputs/feature/examples/LowerFloatUpRange/photo.jpeg"/>
+
+``` js
+import {View, Text} from 'react-native';
+import React from 'react';
+import FloatingLabelTextInput from '../../src/floatingLabelTextInput';
+
+export default function LoweFloatUpRange() {
+  return (
+    <FloatingLabelTextInput
+      label="Lower label"
+      containerStyle={{height: 50}}
+      floatUpRange={16}
+      inputStyle={{marginTop: 5}}
+      error="This field is required"
+    />
+  );
+} 
+```
 
 ## support us
 [☕  Buy me a coffee](https://www.buymeacoffee.com/dagizewdudc)
