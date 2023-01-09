@@ -58,7 +58,9 @@ export default function LoweFloatUpRange() {
 } 
 ```
 
-- Using Icon
+- Using icon
+
+Set an icon both to the right side (The first icon, which is displayed on the left side of the input field) and left side (The second icon, which is displayed on the left side of the input field)
 
 <img src="https://raw.githubusercontent.com/Dagic-zewdu/react-native-floating-label-inputs/feature/examples/WithIcon/photo.jpeg"/>
 
@@ -105,6 +107,7 @@ function WithIcon() {
 
 export default WithIcon;
 ```
+
 
 ## support us
 [☕  Buy me a coffee](https://www.buymeacoffee.com/dagizewdudc)
