@@ -21,6 +21,7 @@ export default function App() {
             width: '100%',
             alignItems: 'center',
             justifyContent: 'center',
+            backgroundColor: '#f5f0e1',
           }}>
           <CommonExample />
           <ColoredExample />
