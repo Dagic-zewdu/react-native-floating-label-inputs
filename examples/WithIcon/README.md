@@ -1,1 +1,1 @@
-![](./photo.gif)
+![](./photo.jpeg)
