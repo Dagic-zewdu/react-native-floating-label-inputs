@@ -11,6 +11,7 @@ import BorderBottomOnly from './examples/bottomBorderOnly';
 import LoweFloatUpRange from './examples/LowerFloatUpRange';
 import WithIcon from './examples/WithIcon';
 import BorderBottomWithIcon from './examples/borderBottomWithIcon';
+import TextAreaExample from './examples/textArea';
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
           <LoweFloatUpRange />
           {/* <WithIcon />
           <BorderBottomWithIcon /> */}
+          <TextAreaExample />
         </View>
       </TouchableWithoutFeedback>
     </SafeAreaView>
