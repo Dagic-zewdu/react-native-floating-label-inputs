@@ -111,7 +111,7 @@ export default WithIcon;
 
 A floating label for your `TextArea` field that can accept multiple lines of text. The label will float up a certain range (specified by the "floatUpRange" prop) as the user types. The "containerStyle" prop that sets the height of the container element, and an "inputStyle" prop that sets the height of the input field itself.
 
-<img src="https://raw.githubusercontent.com/Dagic-zewdu/react-native-floating-label-inputs/feature/examples/textArea/photo.gif" width="65%" />
+<img src="https://raw.githubusercontent.com/Dagic-zewdu/react-native-floating-label-inputs/feature/examples/textArea/photo.gif" />
 
  ```js
  import React from 'react';
