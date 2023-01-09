@@ -16,5 +16,5 @@ export interface FloatingLabelProps extends TextInputProps {
   inputStyle?: ViewStyle;
   icon?: JSX.Element;
   rightIcon?: JSX.Element;
-  interpolateRange?: InterpolateRangeProps;
+  floatUpRange?: number;
 }
