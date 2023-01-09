@@ -19,11 +19,11 @@ or using yarn
 | :---------------------------: | :------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |         `labelProps`          |                  TextProps                    |                                                                                                                      undefined                                                                                                                      |                                                                                                                                    Set the label props as `TextProps`          
 |     `Icon`        | JSX.Element       | Undefined     | Add left side Icon component.
-|     `floatUpRange`        | JSX.Element       | Undefined     | Add left side Icon component.
+|     `floatUpRange`        | JSX.Element       | 25     | Set the floatUp Range.
 |     `rightIcon`        | JSX.Element       | Undefined     | Add right side component, it can be an icon..
 |     `inputStyle`        | ViewStyle       | Undefined     | Set the input style.
 |     `labelStyle`        | TextStyle       | Undefined     | Set the label style for the floating label component.
-|     `labelColor`        | String       | Undefined     | Set the lable color.
+|     `labelColor`        | String       | '#111'     | Set the lable color.
 |     `containerStyle`        | ViewStyle       | Undefined     | Set styles to the input container component.
 |     `onBlur`        | JSX.Element       | Undefined     | when the text input loses focus.
 |     `onFocus`        | JSX.Element       | Undefined     | when the text input receives focus.
