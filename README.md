@@ -132,7 +132,8 @@ export default function TextAreaExample() {
 - Bordr Bottom With an icon
 
 <img src="https://raw.githubusercontent.com/Dagic-zewdu/react-native-floating-label-inputs/feature/examples/borderBottomWithIcon/photo.jpeg"/>
-```js
+
+``` js
 import React, {useState} from 'react';
 import FloatingLabelTextInput from '../../src/floatingLabelTextInput';
 import FontAwesome5Icon from 'react-native-vector-icons/FontAwesome5';
