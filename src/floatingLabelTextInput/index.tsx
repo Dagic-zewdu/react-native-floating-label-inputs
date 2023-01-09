@@ -12,10 +12,7 @@ const FloatingLabelTextInput = ({
   inputStyle = {},
   icon,
   rightIcon,
-  interpolateRange = {
-    inputRange: [0, 1],
-    outputRange: [0, -25],
-  },
+  floatUpRange = 25,
   ...props
 }: FloatingLabelProps) => {
   const [val, setValue] = useState(props.value ? props.value : '');
@@ -54,7 +51,10 @@ const FloatingLabelTextInput = ({
     }).start();
   };
 
-  const yVal = moveText.interpolate(interpolateRange);
+  const yVal = moveText.interpolate({
+    inputRange: [0, 1],
+    outputRange: [0, -floatUpRange],
+  });
 
   const animStyle = {
     transform: [
@@ -77,8 +77,8 @@ const FloatingLabelTextInput = ({
           <Text
             style={{
               ...styles.label,
-              ...labelStyle,
               left: icon ? 20 : 5,
+              ...labelStyle,
               color: error ? 'red' : labelColor,
             }}>
             {label}

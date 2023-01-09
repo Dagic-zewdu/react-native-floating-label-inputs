@@ -7,6 +7,9 @@ import {
 import React from 'react';
 import CommonExample from './examples/common/common';
 import ColoredExample from './examples/colored';
+import BorderBottomOnly from './examples/bottomBorderOnly';
+import LoweFloatUpRange from './examples/LowerFloatUpRange';
+import WithIcon from './examples/WithIcon';
 
 export default function App() {
   return (
@@ -21,6 +24,9 @@ export default function App() {
           }}>
           <CommonExample />
           <ColoredExample />
+          <BorderBottomOnly />
+          <LoweFloatUpRange />
+          <WithIcon />
         </View>
       </TouchableWithoutFeedback>
     </SafeAreaView>
