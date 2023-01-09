@@ -10,6 +10,7 @@ import ColoredExample from './examples/colored';
 import BorderBottomOnly from './examples/bottomBorderOnly';
 import LoweFloatUpRange from './examples/LowerFloatUpRange';
 import WithIcon from './examples/WithIcon';
+import BorderBottomWithIcon from './examples/borderBottomWithIcon';
 
 export default function App() {
   return (
@@ -23,11 +24,12 @@ export default function App() {
             justifyContent: 'center',
             backgroundColor: '#f5f0e1',
           }}>
-          <CommonExample />
+          {/* <CommonExample />
           <ColoredExample />
-          <BorderBottomOnly />
+          <BorderBottomOnly /> */}
           <LoweFloatUpRange />
-          <WithIcon />
+          {/* <WithIcon />
+          <BorderBottomWithIcon /> */}
         </View>
       </TouchableWithoutFeedback>
     </SafeAreaView>
