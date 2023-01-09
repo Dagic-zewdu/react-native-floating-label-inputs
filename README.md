@@ -56,7 +56,7 @@ Don't forget to give the project a star! Thanks again!
 
 ### Built With
 
-* [ReactNative](https://www.typescriptlang.org/)
+* [ReactNative](https://reactnative.dev/)
 * [JavaScript](https://www.javascript.com/)
 
  
