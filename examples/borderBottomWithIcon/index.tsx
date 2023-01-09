@@ -4,7 +4,7 @@ import FontAwesome5Icon from 'react-native-vector-icons/FontAwesome5';
 import FontisoIcon from 'react-native-vector-icons/Fontisto';
 
 export default function BorderBottomWithIcon() {
-  const [showPassword, setShowPassword] = useState<boolean>(false);
+  const [showPassword, setShowPassword] = useState<boolean>(true);
 
   return (
     <FloatingLabelTextInput

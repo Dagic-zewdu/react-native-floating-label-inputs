@@ -4,7 +4,7 @@ import FloatingLabelTextInput from '../../src/floatingLabelTextInput';
 import FontisoIcon from 'react-native-vector-icons/Fontisto';
 import FontAwesome5Icon from 'react-native-vector-icons/FontAwesome5';
 function WithIcon() {
-  const [showPassword, setShowPassword] = useState<boolean>(false);
+  const [showPassword, setShowPassword] = useState<boolean>(true);
   return (
     <FloatingLabelTextInput
       label="password"

@@ -9,6 +9,7 @@ export default function LoweFloatUpRange() {
       containerStyle={{height: 50}}
       floatUpRange={16}
       inputStyle={{marginTop: 5}}
+      error="This field is required"
     />
   );
 }
