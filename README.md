@@ -182,6 +182,7 @@ export default function BorderBottomWithIcon() {
     />
   );
 }
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ```
 
@@ -224,7 +225,7 @@ Don't forget to give the project a star! Thanks again!
 
 ### Built With
 
-* [ReactNative](https://reactnative.dev/)
+* [React Native](https://reactnative.dev/)
 * [TypeScript](https://www.typescriptlang.org/)
 * [JavaScript](https://www.javascript.com/)
 
