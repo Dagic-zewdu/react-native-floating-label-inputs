@@ -28,10 +28,10 @@ export default function App() {
           {/* <CommonExample />
           <ColoredExample />
           <BorderBottomOnly /> */}
-          <LoweFloatUpRange />
-          {/* <WithIcon />
-          <BorderBottomWithIcon /> */}
-          <TextAreaExample />
+          {/* <LoweFloatUpRange /> */}
+          {/* <WithIcon /> */}
+          <BorderBottomWithIcon />
+          {/* <TextAreaExample />  */}
         </View>
       </TouchableWithoutFeedback>
     </SafeAreaView>
