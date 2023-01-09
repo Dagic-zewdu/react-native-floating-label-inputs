@@ -30,6 +30,7 @@ or using yarn
 |     `onChangeText`        | String       | Undefined     | whenever the text in the input changes. It is passed a single argument, which is the new text value of the input.
 |     `error`        | String       | Undefined     | Set your error message.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
