@@ -60,7 +60,7 @@ export default function LoweFloatUpRange() {
 
 - Using icon
 
-Set an icon both to the right side (The first icon, which is displayed on the left side of the input field) and left side (The second icon, which is displayed on the left side of the input field)
+Set an icon both to the right side (The first icon, which is displayed on the right side of the input field) and left side (The second icon, which is displayed on the left side of the input field)
 
 <img src="https://raw.githubusercontent.com/Dagic-zewdu/react-native-floating-label-inputs/feature/examples/WithIcon/photo.jpeg"/>
 
@@ -107,7 +107,28 @@ function WithIcon() {
 
 export default WithIcon;
 ```
+- TextArea
 
+A floating label for your `TextArea` field that can accept multiple lines of text. The label will float up a certain range (specified by the "floatUpRange" prop) as the user types. The "containerStyle" prop that sets the height of the container element, and an "inputStyle" prop that sets the height of the input field itself.
+
+<img src="https://raw.githubusercontent.com/Dagic-zewdu/react-native-floating-label-inputs/feature/examples/textArea/photo.gif" />
+
+ ```js
+ import React from 'react';
+import FloatingLabelTextInput from '../../src/floatingLabelTextInput';
+
+export default function TextAreaExample() {
+  return (
+    <FloatingLabelTextInput
+      label="Description"
+      floatUpRange={50}
+      containerStyle={{height: 100}}
+      inputStyle={{height: 100}}
+      multiline={true}
+    />
+  );
+}
+ ```
 
 ## support us
 [☕  Buy me a coffee](https://www.buymeacoffee.com/dagizewdudc)
