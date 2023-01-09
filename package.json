@@ -1,6 +1,34 @@
 {
-  "name": "floatingInputs",
+  "name": "react-native-floating-label-inputs",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dagic-zewdu/react-native-floating-label-inputs"
+  },
+  "bugs": {
+    "url": "https://github.com/Dagic-zewdu/react-native-floating-label-inputs/issues"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "react",
+    "react native",
+    "mobile",
+    "ios",
+    "android",
+    "input",
+    "mask",
+    "floating",
+    "text-input",
+    "TextInput",
+    "customizable",
+    "placeholder",
+    "react-native-floating-label-input",
+    "floating-label-input",
+    "FloatingLabelInput"
+  ],
+  "main": "index.tsx",
+  "private": false,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",

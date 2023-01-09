@@ -8,11 +8,9 @@ const styles = StyleSheet.create({
   },
   inputContainer: {
     backgroundColor: '#fff',
-    paddingHorizontal: 10,
     borderWidth: 1,
     borderColor: '#bdbdbd',
     borderRadius: 2,
-    paddingLeft: 35,
   },
   icon: {
     width: 40,
@@ -24,18 +22,20 @@ const styles = StyleSheet.create({
     height: 45,
     color: '#000',
     justifyContent: 'center',
-    marginTop: 2,
+    marginTop: 4,
+    paddingRight: 10,
+    width: '93%',
   },
   label: {
     fontSize: 13,
     backgroundColor: '#fff',
   },
   animatedStyle: {
-    top: 13,
-    left: 15,
     position: 'absolute',
-    borderRadius: 90,
     zIndex: 3,
+    height: '100%',
+    left: 15,
+    justifyContent: 'center',
   },
   error: {
     width: '100%',
@@ -45,8 +45,15 @@ const styles = StyleSheet.create({
   },
   iconContainer: {
     position: 'absolute',
-    top: 11,
     left: 5,
+    height: '100%',
+    justifyContent: 'center',
+  },
+  rightIconContainer: {
+    position: 'absolute',
+    height: '100%',
+    justifyContent: 'center',
+    right: 10,
   },
 });
 

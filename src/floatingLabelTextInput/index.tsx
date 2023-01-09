@@ -1,38 +1,20 @@
 import React, {useState, useRef} from 'react';
-import {
-  View,
-  TextInput,
-  Text,
-  Animated,
-  TextInputProps,
-  ViewStyle,
-  TextStyle,
-} from 'react-native';
-import styles from './style';
+import {View, TextInput, Text, Animated} from 'react-native';
+import styles from '../styles/global';
+import {FloatingLabelProps} from '../types';
 
-interface Props extends TextInputProps {
-  label: string | number;
-  error?: string;
-  onChangeText?: (text: string) => void; // onChange
-  onFocus?: () => void;
-  onBlur?: () => void;
-  containerStyle?: ViewStyle;
-  labelColor?: string;
-  labelStyle?: TextStyle;
-  inputStyle?: ViewStyle;
-  icon?: JSX.Element;
-}
-
-const FloatingTextInput = ({
-  label,
+const FloatingLabelTextInput = ({
+  label = '',
   error = '',
   containerStyle,
   labelColor = '#111',
   labelStyle = {},
   inputStyle = {},
   icon,
+  rightIcon,
+  floatUpRange = 25,
   ...props
-}: Props) => {
+}: FloatingLabelProps) => {
   const [val, setValue] = useState(props.value ? props.value : '');
 
   const moveText = useRef(new Animated.Value(props.value ? 1 : 0)).current;
@@ -71,7 +53,7 @@ const FloatingTextInput = ({
 
   const yVal = moveText.interpolate({
     inputRange: [0, 1],
-    outputRange: [4, -20],
+    outputRange: [0, -floatUpRange],
   });
 
   const animStyle = {
@@ -87,6 +69,7 @@ const FloatingTextInput = ({
       <View
         style={{
           ...styles.inputContainer,
+          paddingLeft: icon ? 31 : 16,
           ...containerStyle,
           borderColor: error ? 'red' : '#bdbdbd',
         }}>
@@ -94,8 +77,8 @@ const FloatingTextInput = ({
           <Text
             style={{
               ...styles.label,
+              left: icon ? 20 : 5,
               ...labelStyle,
-              left: icon ? 20 : 15,
               color: error ? 'red' : labelColor,
             }}>
             {label}
@@ -114,9 +97,14 @@ const FloatingTextInput = ({
           {...props}
           onChangeText={text => onChangeText(text)}
         />
+        {rightIcon ? (
+          <View style={styles.rightIconContainer}>{rightIcon}</View>
+        ) : (
+          <React.Fragment></React.Fragment>
+        )}
       </View>
       <Text style={{...styles.error, marginTop: error ? 5 : 0}}>{error}</Text>
     </View>
   );
 };
-export default FloatingTextInput;
+export default FloatingLabelTextInput;
