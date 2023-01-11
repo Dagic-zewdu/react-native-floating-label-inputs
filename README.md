@@ -27,9 +27,6 @@ or using yarn
 |     `labelStyle`        | TextStyle       | Undefined     | Set the label style for the floating label component.
 |     `labelColor`        | String       | '#111'     | Set the lable color.
 |     `containerStyle`        | ViewStyle       | Undefined     | Set styles to the input container component.
-|     `onBlur`        | JSX.Element       | Undefined     | when the text input loses focus.
-|     `onFocus`        | JSX.Element       | Undefined     | when the text input receives focus.
-|     `onChangeText`        | String       | Undefined     | whenever the text in the input changes. It is passed a single argument, which is the new text value of the input.
 |     `error`        | String       | Undefined     | Set your error message.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
