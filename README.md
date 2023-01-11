@@ -15,6 +15,8 @@ or using yarn
 
 # Props
 
+* All react native [text input props](https://reactnative.dev/docs/textinput) are supported  in the input field. other than that the package have the following props
+
 |             Prop              |     Type                     |                                                     Default                                                                                                                       |                                                                                                                                                 Description                                                                                                                                                  |
 | :---------------------------: | :------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |         `labelProps`          |                  TextProps                    |                                                                                                                      undefined                                                                                                                      |                                                                                                                                    Set the label props as `TextProps`          
@@ -34,16 +36,34 @@ or using yarn
 
 # Usage
 
-- Lower Float Up Range
+### Basic usage example
 
+```ts
+import {View, Text} from 'react-native';
+import React, {useState} from 'react';
+import FloatingLabelTextInput from 'react-native-floating-label-inputs';
+// @ts-ignore
+import Icon from 'react-native-vector-icons/EvilIcons';
 
+export default function CommonExample() {
+return (
+<FloatingLabelTextInput
+label="Name"
+onChangeText={text => console.log(text)}
+/>
+);
+}
+```
+### Lower Float Up Range
+
+* `floatUpRange` is a prop that gives floating range starting from zero. You should assign the appropriate number depending on your container  height. the default value given is 25 but depending on your input container height it may vary.
 
 <img src="https://raw.githubusercontent.com/Dagic-zewdu/react-native-floating-label-inputs/feature/examples/LowerFloatUpRange/photo.jpeg" width="65%" />
 
 ``` js
 import {View, Text} from 'react-native';
 import React from 'react';
-import FloatingLabelTextInput from '../../src/floatingLabelTextInput';
+import FloatingLabelTextInput from 'react-native-floating-label-inputs';
 
 export default function LoweFloatUpRange() {
   return (
@@ -57,7 +77,30 @@ export default function LoweFloatUpRange() {
   );
 } 
 ```
+### Different color depending on your style
 
+* As this package is dynamic you can use own style, Their are 4 styling props to do this. `containerStyle` is responsible for the container that holds the text field. `inputStyle` is a style given to the texts that are typed by the user. `labelStyle` responsible for styling the lable and `lableColor` is color of the label. 
+
+![](./examples/colored/photo.jpeg)
+
+```ts
+import {View, Text} from 'react-native';
+import React from 'react';
+import FloatingLabelTextInput from 'react-native-floating-label-inputs';
+
+export default function ColoredExample() {
+return (
+<FloatingLabelTextInput
+label="password"
+containerStyle={{backgroundColor: '#111'}}
+labelStyle={{backgroundColor: '#111'}}
+labelColor="#fff"
+inputStyle={{color: '#fff'}}
+/>
+);
+}
+
+```
 - Using icon
 
 Set an icon both to the right side (The first icon, which is displayed on the right side of the input field) and left side (The second icon, which is displayed on the left side of the input field)
@@ -66,7 +109,7 @@ Set an icon both to the right side (The first icon, which is displayed on the ri
 
 ```js
 import React, {useState} from 'react';
-import FloatingLabelTextInput from '../../src/floatingLabelTextInput';
+import FloatingLabelTextInput from 'react-native-floating-label-inputs';
 //@ts-ignore
 import FontisoIcon from 'react-native-vector-icons/Fontisto';
 import FontAwesome5Icon from 'react-native-vector-icons/FontAwesome5';
