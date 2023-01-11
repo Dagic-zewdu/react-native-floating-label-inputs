@@ -172,7 +172,7 @@ export default function TextAreaExample() {
   );
 }
  ```
-- Bordr Bottom With an icon
+- Border Bottom With an icon
 
 <img src="https://raw.githubusercontent.com/Dagic-zewdu/react-native-floating-label-inputs/feature/examples/borderBottomWithIcon/photo.jpeg" width="65%"/>
 
