@@ -19,15 +19,15 @@ or using yarn
 
 |             Prop              |     Type                     |                                                     Default                                                                                                                       |                                                                                                                                                 Description                                                                                                                                                  |
 | :---------------------------: | :------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|         `labelProps`          |                  TextProps                    |                                                                                                                      undefined                                                                                                                      |                                                                                                                                    Set the label props as `TextProps`          
-|     `Icon`        | JSX.Element       | Undefined     | Add left side Icon component.
-|     `floatUpRange`        | JSX.Element       | 25     | Set the floatUp Range.
-|     `rightIcon`        | JSX.Element       | Undefined     | Add right side component, it can be an icon..
-|     `inputStyle`        | ViewStyle       | Undefined     | Set the input style.
-|     `labelStyle`        | TextStyle       | Undefined     | Set the label style for the floating label component.
+|         `label`          |                  string                    |                                                                                                                      ""                                                                                                                     |label of the input field          
+|     `Icon`        | JSX.Element       | Undefined     | Left icon should be supported by the app.
+|     `floatUpRange`        | number       | 25     | Set the float up Range. if you provide negative number floats down
+|     `rightIcon`        | JSX.Element       | Undefined     | Add right side component, it can be an icon. and should be supported by the up.
+|     `inputStyle`        | ViewStyle       | {}     | Set the input style which means the style of the input texts.
+|     `labelStyle`        | TextStyle       | {}     | Set the label style for the floating label component.
 |     `labelColor`        | String       | '#111'     | Set the lable color.
-|     `containerStyle`        | ViewStyle       | Undefined     | Set styles to the input container component.
-|     `error`        | String       | Undefined     | Set your error message.
+|     `containerStyle`        | ViewStyle       | {}     | Set styles to the input container component.
+|     `error`        | string or boolean      |  ''     | Set your error message.if error message is passed the border and the label turns red.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
