@@ -155,7 +155,7 @@ A floating label for your `TextArea` field that can accept multiple lines of tex
 
  ```js
  import React from 'react';
-import FloatingLabelTextInput from '../../src/floatingLabelTextInput';
+import FloatingLabelTextInput from 'react-native-floating-label-inputs';
 
 export default function TextAreaExample() {
   return (
@@ -175,7 +175,7 @@ export default function TextAreaExample() {
 
 ``` js
 import React, {useState} from 'react';
-import FloatingLabelTextInput from '../../src/floatingLabelTextInput';
+import FloatingLabelTextInput from 'react-native-floating-label-inputs';
 import FontAwesome5Icon from 'react-native-vector-icons/FontAwesome5';
 import FontisoIcon from 'react-native-vector-icons/Fontisto';
 
