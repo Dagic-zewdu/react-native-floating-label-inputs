@@ -227,7 +227,7 @@ export default function BorderBottomWithIcon() {
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## [click here] for more examples.
+### [click here](https://github.com/Dagic-zewdu/react-native-floating-label-inputs/tree/dev/examples) for more examples.
 
 ## support us
 [☕  Buy me a coffee](https://www.buymeacoffee.com/dagizewdudc)
