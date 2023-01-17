@@ -2,7 +2,8 @@
 
 ## About The Package
 
- This is React Native package full customizable and its props extends from [React-native textinput props](https://reactnative.dev/docs/textinput#props). If you your label floats in the text input while focusing or in blur this is the perfect package and also multiple examples to full fill your expecations.💅🎉
+  This is a fully customizable React Native package, and its props extend from [React-native textinput props](https://reactnative.dev/docs/textinput#props). If your label floats in the text input while focusing or blurring, this is the perfect package for you, with multiple examples to meet your needs. 💅🎉
+
 ## Getting Started
 
 `npm install react-native-floating-inputs` 
@@ -155,7 +156,7 @@ A floating label for your `TextArea` field that can accept multiple lines of tex
 
  ```js
  import React from 'react';
-import FloatingLabelTextInput from '../../src/floatingLabelTextInput';
+import FloatingLabelTextInput from 'react-native-floating-label-inputs';
 
 export default function TextAreaExample() {
   return (
@@ -175,7 +176,7 @@ export default function TextAreaExample() {
 
 ``` js
 import React, {useState} from 'react';
-import FloatingLabelTextInput from '../../src/floatingLabelTextInput';
+import FloatingLabelTextInput from 'react-native-floating-label-inputs';
 import FontAwesome5Icon from 'react-native-vector-icons/FontAwesome5';
 import FontisoIcon from 'react-native-vector-icons/Fontisto';
 
@@ -222,10 +223,11 @@ export default function BorderBottomWithIcon() {
     />
   );
 }
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 ```
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### [click here](https://github.com/Dagic-zewdu/react-native-floating-label-inputs/tree/dev/examples) for more examples.
 
 ## support us
 [☕  Buy me a coffee](https://www.buymeacoffee.com/dagizewdudc)
