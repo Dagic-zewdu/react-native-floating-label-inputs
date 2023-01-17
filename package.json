@@ -73,6 +73,6 @@
     ]
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@Dagic-zewdu:registry": "https://npm.pkg.github.com"
   }
 }
