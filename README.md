@@ -6,7 +6,7 @@
 
 ## Getting Started
 
-`npm install react-native-floating-inputs` 
+`npm i react-native-floating-label-inputs` 
 
 or using yarn
 
